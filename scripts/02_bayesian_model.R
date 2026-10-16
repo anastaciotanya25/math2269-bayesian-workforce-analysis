@@ -151,8 +151,8 @@ model {
   #-----------------------------------------------------------------------------
   # RUN THE CHAINS
   parameters = c("beta0", "beta", "sigma", "zbeta0", "zbeta", "zsigma", "nu", "pred")
-  adaptSteps = 500  # Number of steps to "tune" the samplers
-  burnInSteps = 1000
+  adaptSteps = 1500  # Number of steps to "tune" the samplers
+  burnInSteps = 5000
   runJagsOut <- run.jags( method=runjagsMethod ,
                           model="TEMPmodel.txt" , 
                           monitor=parameters , 
