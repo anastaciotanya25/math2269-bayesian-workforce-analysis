@@ -1,3 +1,8 @@
+.DS_Store
+TEMPmodel.txt
+data/ANZSCO Occupation data - February 2026.xlsx
+data/DBDA2E-utilities.R
+
 # History files
 .Rhistory
 .Rapp.history
